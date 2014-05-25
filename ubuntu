@@ -1,0 +1,4 @@
+#!/bin/sh -e
+# -*- coding: utf-8; mode: sh -*-
+docker run --rm -i -t tvaughan/ubuntu:14.04 "$@"
+exit 0
